@@ -1,0 +1,44 @@
+.login-header{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    padding: 0.1rem 0;
+}
+.login a{
+    text-decoration: none;
+    position: absolute;
+    right: 0.1rem;
+    color: white;
+  
+}
+.login-title{
+    padding: 3rem 0.5rem;
+    text-align: center; 
+     font-size: 0.3rem;
+}
+.login-title div{
+    padding: 0.5rem 0;
+border-bottom: 0.01rem solid #999999;
+font-size: 0.3rem;
+}
+.login-title input{
+    border: none;
+    outline: none;
+    
+}
+.login-title p{
+    color: #999999;
+    margin-top: 0.1rem;
+    font-size: 0.3rem;
+    text-align: right;
+}
+.login-title button{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: orange;
+    height: 0.9rem;
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    color: white;
+}
