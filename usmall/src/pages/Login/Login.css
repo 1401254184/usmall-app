@@ -11,6 +11,9 @@
     color: white;
   
 }
+.login{
+    background-color: white;
+}
 .login-title{
     padding: 3rem 0.5rem;
     text-align: center; 

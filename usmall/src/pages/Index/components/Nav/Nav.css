@@ -1,0 +1,16 @@
+.Nav ul{
+    display: flex;
+    text-align: center;
+}
+.Nav li{
+    flex: 1;
+    font-size: 0.3rem;
+    color: #999999;
+}
+.Nav img{
+    width: 1.5rem;
+    margin: 0 0.1rem;
+}
+.Nav{
+    margin-bottom: 0.2rem;
+}
