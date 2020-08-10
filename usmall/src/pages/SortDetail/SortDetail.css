@@ -1,0 +1,53 @@
+.list header{
+    width: 100%;
+    text-align: center;
+    height: 0.5rem;
+    background-color: orange;
+    color: white;
+    /* font-size: 0.3rem; */
+   line-height:  0.5rem;
+}
+
+.list img{
+    width: 3rem;
+    float: left;
+    border-radius: 0.4rem;
+    margin-right: 0.4rem;
+    }
+    .list li{
+        overflow: hidden;
+        margin-bottom: 0.4rem;
+    }
+    
+    .list .goodsname{
+      margin-bottom: 0.4rem;
+      
+    }
+    .list .price{
+        color: red;
+    }
+    .list ul{
+        margin-bottom: 1rem;
+    }
+    .list .btn{
+        height: 1rem;
+        border: none;
+        outline: none;
+        background-color: orange;
+        border-radius: 0.3rem;
+        color: white;
+        text-align: center;
+        font-size: 0.4rem;
+        padding: 0.2rem;
+        margin-top: 0.3rem;
+    }
+    .list .back{
+        height: 0.3rem;
+        margin-top: 0;  line-height: 0;
+    }
+    .active{
+        color: orange;
+      
+    }
+ 
+    

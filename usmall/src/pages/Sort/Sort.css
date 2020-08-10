@@ -1,0 +1,100 @@
+.select{
+    border-left: 0.2rem solid blue;
+    color: orange;
+    padding: 0.2rem;
+}
+.cate{
+    overflow: hidden;
+}
+.cate .left{
+    width: 25%;
+    float: left;
+
+    height: 100vh;
+}
+.cate .right{
+    width: 75%;
+    float: left;
+    /* background-color: royalblue; */
+    height: 100vh;
+}
+.left div{
+    margin: 0.2rem 0;
+}
+.left span{
+    font-size: 0.3rem;
+    padding: 0.2rem;
+    
+}
+.cate header{
+    width: 100%;
+    text-align: center;
+    height: 0.5rem;
+    background-color: orange;
+    color: white;
+    font-size: 0.3rem;
+   line-height:  0.5rem;
+}
+
+
+.footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  /* text-align:unset; */
+}
+.footer ul{
+     border-top: 1px solid #999999;
+    width: 100%;
+    display: flex;
+    padding-top: 0.1rem;
+}
+.footer img{
+    width: 0.5rem;
+}
+.footer li{
+    flex:  1;
+   
+}
+.footer a{
+    height: 0.9rem;
+    display: block;
+    font-size: 0.3rem;
+    color: #333333;
+ 
+    background-position: center top;
+    background-size: 0.5rem;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 1.5rem;
+
+}
+
+.footer .a1{ background-image: url(../../assets/img/tab_home_nor.png);}
+.footer .a4{ background-image: url(../../assets/img/tab_me_nor.png);}
+.footer .a3{ background-image: url(../../assets/img/tab_shopping_nor.png);}
+.footer .a2{ background-image: url(../../assets/img/tab_menu_nor.png);}
+.footer .active1{
+    color: orange;
+    background-image: url(../../assets/img/tab_home_hig.png);
+
+    
+}
+.footer .active2{
+    color: orange;
+    background-image: url(../../assets/img/tab_menu_hig.png);
+
+    
+}
+.footer .active3{
+    color: orange;
+    background-image: url(../../assets/img/tab_shopping_hig.png);
+
+    
+}
+.footer .active4{
+    color: orange;
+    background-image: url(../../assets/img/tab_me_hig.png);
+
+    
+}

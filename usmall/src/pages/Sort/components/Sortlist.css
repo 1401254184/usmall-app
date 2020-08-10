@@ -1,0 +1,29 @@
+.Sortlist li{
+ width: 2.02rem;
+ height: 2.02rem;
+ float: left;box-sizing: border-box;
+ position: relative;
+ overflow: hidden;
+ border-radius: 0.3rem;
+
+
+margin: 0.2rem;
+}
+.Sortlist ul{
+    overflow: hidden;
+}
+.Sortlist img{
+    width: 2rem;
+    height: 2rem;border: 0.01rem solid blue;
+    border-radius: 0.3rem;
+ 
+}
+.Sortlist .catename{
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    text-align: center;
+    width: 100%;
+    font-size: 0.3rem;
+    color: white;
+}

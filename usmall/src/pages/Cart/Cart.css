@@ -1,0 +1,14 @@
+.cart header{
+    text-align: center;
+    background-color: orange;
+    color: white;
+    height: 0.6rem;
+    padding: 0.1rem 0;
+   }
+   .cart .store_title{
+       color: #999999;
+       margin-left: 0.2rem;
+   }
+   .store_title span{
+        margin-left: 0.2rem;
+   }
